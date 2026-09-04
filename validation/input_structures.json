@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "structures": [
+    {
+      "name": "metamizole",
+      "pubchem_cid": 3111,
+      "formula": "C13H17N3O4S",
+      "atoms": 38,
+      "bonds_in_source_sdf": 39,
+      "formal_charge_in_source_sdf": 0,
+      "source": "inputs/raw/metamizole_cid3111_3d.sdf",
+      "prepared": "inputs/prepared/metamizole_neutral.pdb"
+    },
+    {
+      "name": "ethanol",
+      "pubchem_cid": 702,
+      "formula": "C2H6O",
+      "atoms": 9,
+      "bonds_in_source_sdf": 8,
+      "formal_charge_in_source_sdf": 0,
+      "source": "inputs/raw/ethanol_cid702_3d.sdf",
+      "prepared": "inputs/prepared/ethanol.pdb"
+    }
+  ]
+}

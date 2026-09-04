@@ -1,0 +1,188 @@
+{
+  "status": "pass",
+  "system": {
+    "solute": "neutral metamizole, PubChem CID 3111",
+    "solvent": "ethanol, PubChem CID 702",
+    "box_angstrom": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "packmol_tolerance_angstrom": 2.0,
+    "ethanol_target_density_g_cm3": 0.7893,
+    "ethanol_count_continuous": 142.63405338366834,
+    "ethanol_count_used": 143,
+    "solvent_only_density_from_integer_count_g_cm3": 0.7913250540275514
+  },
+  "coordinate_ranges_angstrom": {
+    "x": [
+      0.099,
+      23.931
+    ],
+    "y": [
+      0.1,
+      23.919
+    ],
+    "z": [
+      0.1,
+      23.905
+    ]
+  },
+  "metamizole_barycenter_angstrom": [
+    12.0,
+    11.999894736842105,
+    12.000131578947368
+  ],
+  "rigid_geometry_max_deviation_angstrom": {
+    "metamizole": 0.0009896443829155999,
+    "ethanol": 0.001432231841018261
+  },
+  "minimum_periodic_intermolecular_distance_angstrom": 2.198705528259754,
+  "minimum_pair": {
+    "atom_1": [
+      943,
+      "H2",
+      [
+        "B",
+        102,
+        "ETL"
+      ]
+    ],
+    "atom_2": [
+      1160,
+      "H3",
+      [
+        "B",
+        126,
+        "ETL"
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "name": "total_atoms",
+      "pass": true,
+      "observed": 1325,
+      "expected": 1325
+    },
+    {
+      "name": "box_lengths_angstrom",
+      "pass": true,
+      "observed": [
+        24.0,
+        24.0,
+        24.0
+      ],
+      "expected": [
+        24.0,
+        24.0,
+        24.0
+      ]
+    },
+    {
+      "name": "coordinates_in_box",
+      "pass": true,
+      "observed": {
+        "x": [
+          0.099,
+          23.931
+        ],
+        "y": [
+          0.1,
+          23.919
+        ],
+        "z": [
+          0.1,
+          23.905
+        ]
+      },
+      "expected": {
+        "each_axis": [
+          0.0,
+          24.0
+        ]
+      }
+    },
+    {
+      "name": "molecule_count",
+      "pass": true,
+      "observed": 144,
+      "expected": 144
+    },
+    {
+      "name": "metamizole_count",
+      "pass": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "ethanol_count",
+      "pass": true,
+      "observed": 143,
+      "expected": 143
+    },
+    {
+      "name": "metamizole_formula",
+      "pass": true,
+      "observed": [
+        "C13H17N3O4S"
+      ],
+      "expected": [
+        "C13H17N3O4S"
+      ]
+    },
+    {
+      "name": "ethanol_formulas",
+      "pass": true,
+      "observed": {
+        "C2H6O": 143
+      },
+      "expected": {
+        "C2H6O": 143
+      }
+    },
+    {
+      "name": "metamizole_barycenter_angstrom",
+      "pass": true,
+      "observed": [
+        12.0,
+        11.999894736842105,
+        12.000131578947368
+      ],
+      "expected": [
+        12.0,
+        12.0,
+        12.0
+      ]
+    },
+    {
+      "name": "metamizole_rigid_geometry_max_deviation_angstrom",
+      "pass": true,
+      "observed": 0.0009896443829155999,
+      "expected": "<= 0.005"
+    },
+    {
+      "name": "ethanol_rigid_geometry_max_deviation_angstrom",
+      "pass": true,
+      "observed": 0.001432231841018261,
+      "expected": "<= 0.005"
+    },
+    {
+      "name": "minimum_periodic_intermolecular_distance_angstrom",
+      "pass": true,
+      "observed": 2.198706,
+      "expected": ">= 1.99 (Packmol tolerance 2.00)"
+    },
+    {
+      "name": "pdb_xyz_coordinate_consistency",
+      "pass": true,
+      "observed": true,
+      "expected": true
+    }
+  ],
+  "files": {
+    "outputs/metamizole_ethanol_24A.pdb": "e2cc0d3d2c3c85c30664b32f76b36ece61fadb370951b823cec780aac07c50c3",
+    "outputs/metamizole_ethanol_24A.xyz": "c3991adad8a238ed5b59ff5a88d74ec1cc889b6fb03b46cee7923f7db61fe5c9",
+    "outputs/metamizole_ethanol_24A.packmol.pdb": "014553bb352aefbe2956cbd3f990cf22488b26f151294c8b64e8dec2bb88fd87"
+  }
+}

@@ -1,0 +1,4 @@
+packmol 21.2.3
+Python 3.14.6
+7fcf65696c3798dd4dec4258ba6de8849a3ce108229447b914f909c5abc707b8  inputs/raw/metamizole_cid3111_3d.sdf
+302540b4e75e32468e7fed274a1104edc33bc30e06127f6c43918462ece3060b  inputs/raw/ethanol_cid702_3d.sdf

@@ -1,0 +1,12 @@
+REMARK  Generated mechanically from PubChem SDF; no charges or parameters assigned
+HETATM    1  O1  ETL A   1      -1.171   0.300   0.000  1.00  0.00           O
+HETATM    2  C1  ETL A   1      -0.046  -0.567   0.000  1.00  0.00           C
+HETATM    3  C2  ETL A   1       1.218   0.267   0.000  1.00  0.00           C
+HETATM    4  H1  ETL A   1      -0.096  -1.212   0.882  1.00  0.00           H
+HETATM    5  H2  ETL A   1      -0.095  -1.194  -0.895  1.00  0.00           H
+HETATM    6  H3  ETL A   1       2.105  -0.372  -0.018  1.00  0.00           H
+HETATM    7  H4  ETL A   1       1.243   0.931  -0.870  1.00  0.00           H
+HETATM    8  H5  ETL A   1       1.262   0.905   0.889  1.00  0.00           H
+HETATM    9  H6  ETL A   1      -1.129   0.836   0.810  1.00  0.00           H
+TER
+END

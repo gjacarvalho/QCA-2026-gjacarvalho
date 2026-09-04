@@ -1,0 +1,5 @@
+schema: spec-driven
+context: |
+  Projeto científico para gerar, com Packmol, coordenadas iniciais de
+  metamizol neutro em etanol. Não criar parâmetros de força, cargas ou
+  coordenadas sem fonte. Todos os artefatos devem ser reproduzíveis.

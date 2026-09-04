@@ -1,0 +1,26 @@
+# Metamizol neutro (PubChem CID 3111) em etanol (PubChem CID 702)
+# Caixa periódica cúbica de 24 Å; contagem de etanol pela densidade 0.7893 g/cm3.
+tolerance 2.0
+filetype pdb
+output outputs/metamizole_ethanol_24A.packmol.pdb
+seed 20260904
+precision 0.001
+pbc 24.0 24.0 24.0
+
+structure inputs/prepared/metamizole_neutral.pdb
+  number 1
+  resnumbers 3
+  chain A
+  connect no
+  center
+  fixed 12.0 12.0 12.0 0.0 0.0 0.0
+end structure
+
+structure inputs/prepared/ethanol.pdb
+  number 143
+  resnumbers 3
+  chain B
+  connect no
+  # Margem numérica para manter todos os átomos na célula primária.
+  inside box 0.1 0.1 0.1 23.9 23.9 23.9
+end structure

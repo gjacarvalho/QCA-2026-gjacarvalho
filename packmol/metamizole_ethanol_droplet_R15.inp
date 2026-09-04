@@ -1,0 +1,23 @@
+# Gota não periódica de etanol com metamizol neutro central.
+tolerance 2.0
+filetype pdb
+output outputs/metamizole_ethanol_droplet_R15.packmol.pdb
+seed 15092026
+precision 0.001
+
+structure inputs/prepared/metamizole_neutral.pdb
+  number 1
+  resnumbers 3
+  chain A
+  connect no
+  center
+  fixed 15.0 15.0 15.0 0.0 0.0 0.0
+end structure
+
+structure inputs/prepared/ethanol.pdb
+  number 146
+  resnumbers 3
+  chain B
+  connect no
+  inside sphere 15.0 15.0 15.0 14.99
+end structure

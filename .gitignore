@@ -1,0 +1,6 @@
+# Ambiente local e caches; resultados científicos permanecem versionados.
+tools/packmol-venv/
+scripts/__pycache__/
+*.pyc
+.agents/
+.codex/
