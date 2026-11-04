@@ -1,0 +1,19 @@
+name: Atualizar dashboard do perfil
+
+on:
+  push:
+
+jobs:
+  refresh-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avisar o dashboard do perfil
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PROFILE_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: 'gjacarvalho',
+              repo: 'gjacarvalho',
+              event_type: 'refresh-profile'
+            });
